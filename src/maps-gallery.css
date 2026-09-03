@@ -68,7 +68,7 @@
 }
 
 .gallery-grid figure img {
-  aspect-ratio: 9 / 16;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center;
 }
@@ -87,7 +87,7 @@
 
   .gallery-grid figure img {
     width: 100%;
-    aspect-ratio: 9 / 16;
+    aspect-ratio: 4 / 5;
     object-fit: cover;
   }
 

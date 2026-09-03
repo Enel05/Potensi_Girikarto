@@ -70,7 +70,15 @@
   }
 
   .gallery-grid figure {
-    min-height: 430px;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery-grid figure img {
+    width: 100%;
+    aspect-ratio: 1.25;
+    object-fit: cover;
   }
 
   .gallery-grid figure:nth-child(even) {
@@ -78,16 +86,24 @@
   }
 
   .gallery-grid figcaption {
-    padding: 70px 20px 20px;
+    position: static;
+    padding: 16px 18px 18px;
+    background: #152c3b;
+    transform: none;
   }
 
   .gallery-grid figcaption strong {
-    font-size: 1.55rem;
+    font-size: 1.35rem;
+  }
+
+  .gallery-grid figcaption span {
+    font-size: .7rem;
+    line-height: 1.45;
   }
 
   .gallery-grid figcaption a {
-    font-size: .52rem;
-    margin-top: 9px;
+    font-size: .57rem;
+    margin-top: 11px;
   }
 
   .hero-maps-link {

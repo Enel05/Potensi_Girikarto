@@ -73,6 +73,21 @@
   object-position: center;
 }
 
+.map-card {
+  border-radius: 4px;
+  background: #dbe5df;
+  box-shadow: 14px 14px 0 #e8e1d3;
+}
+
+.map-card iframe {
+  position: absolute;
+  inset: 0 0 155px;
+  width: 100%;
+  height: calc(100% - 155px);
+  min-height: 0;
+  border: 0;
+}
+
 @media (max-width: 700px) {
   .gallery-grid {
     grid-template-columns: 1fr;
@@ -83,6 +98,15 @@
     min-height: 0;
     display: flex;
     flex-direction: column;
+  }
+
+  .map-card {
+    box-shadow: 8px 8px 0 #e8e1d3;
+  }
+
+  .map-card iframe {
+    inset: 0 0 143px;
+    height: calc(100% - 143px);
   }
 
   .gallery-grid figure img {

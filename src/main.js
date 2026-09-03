@@ -70,7 +70,7 @@ document.querySelector('#app').innerHTML = `
           <a class="text-link" href="https://maps.google.com/?q=Girikarto+Gunungkidul" target="_blank" rel="noreferrer">Lihat Girikarto di Maps <span>↗</span></a>
         </div>
         <div class="map-card" aria-label="Peta lokasi wisata Girikarto">
-          <div class="map-lines"></div><div class="map-label label-one">PUNDUNG</div><div class="map-label label-two">GIRIKARTO</div><div class="map-pin">●</div>
+          <iframe src="https://www.google.com/maps?q=Girikarto%20Gunungkidul&output=embed" title="Peta Girikarto, Gunungkidul" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           <div class="map-card-footer"><span>Lokasi pilihan</span><strong>Girikarto, Gunungkidul</strong><a href="https://maps.google.com/?q=Girikarto+Gunungkidul" target="_blank" rel="noreferrer">Buka Google Maps ↗</a></div>
         </div>
       </div>
